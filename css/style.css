@@ -1,18 +1,18 @@
 
 #background{
-	background-image: url(../images/radishsquad-01.png);
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-position: center;
-	background-color: black;
+  background-image: url(../images/radishsquad-01.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-color: #80d8ff;
 }
 
 
 body {
-  background-color: black;
+  background-color: #80d8ff;
   margin: 20px;
   padding: 0;
-  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  font-family: 'Chewy', cursive;
 }
 
 .logo {
@@ -50,7 +50,7 @@ float:left;
 }
 
 .navigation-bar li a {
-  color: white;
+  color: black;
   font-size: 16px;
   text-decoration: none;
   line-height: 70px;
@@ -63,30 +63,45 @@ float:left;
   float: right;
 }
 h1{
-  color: white;
+  color: black;
   text-align: center;
+  font-family: 'Chewy', cursive;
+  font-size: 50px;
 }
 p{
-  color: white;
+  color: black;
   text-align: left;
+  font-family: 'Amatic SC', cursive;
+  font-size: 20px;
+
 }
 h2{
-  color: white;
+  color: black;
+  text-indent: 30px;
+  font-family: 'Chewy', cursive;
+  font-size: 50px;
 }
 
 h3{
-  color: white;
+  color: black;
+  text-align: left;
+  font-family: 'Chewy', cursive;
+  font-size: 20px;
 }
 div#Team p{
   text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 30px;
 }
 
 div#Contact p{
   text-align: center;
+  font-size: 30px;
 }
 
 div#Work p{
   text-align: center;
+  font-size: 30px;
 }
 
 div {
@@ -105,5 +120,145 @@ div:after {
 
 .boxed{
   width: 800px;
+  margin: 0 auto;
+}
+
+#container {
+  width: 750px;
+  margin: 0 auto;
+  padding: 10px 0px 10px 0px;
+}
+
+.boxed1 {
+  width: 500px;
+  padding-top: 25px;
+  float: right;
+}
+
+#default {
+  float: left;
+  padding: 10px;
+  right: 20px;
+}
+
+#workLCol {
+  width: 600px;
+  float: left;
+  padding: 15px;
+}
+
+#member {
+  width: 600px;
+  margin: 0 auto;
+}
+
+#contact {
+  width: 250px;
+  text-align: left;
+  float: right;
+  line-height: 25px;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+
+
+
+
+
+body {
+    width: auto;
+    height: auto;
+    font-size: 100%;
+}
+
+.cont {
+    margin: 7px;
+    padding: 10px;
+    font-size: 12px;
+    background-color: #B3E5FC;
+    border: 1px solid rgba(236,239,241,0.5);
+    width: 600px;
+    line-height: 40px;
+}
+
+
+.cont:focus {
+    transition: 0.5s;
+    background-color: rgba(255,249,196,0.2);
+    border-color: #FFD54F;
+    outline: 0;
+}
+
+
+#submit_button {
+    width: 425px;
+    height: 50px;
+    font-size: 16px;
+    color: #F5F5F5;
+    background-color: #F9A825;
+    border: 0px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 2px;
+    right: 100px;
+}
+
+#submit_button:hover {
+    transition: 0.5s;
+    background-color: rgba(255,143,0 ,1);
+}
+
+
+#boxing {
+    font-family: arial;
+    color: rgba(245,245,245 ,1);
+    font-size: 13px;
+}
+
+.cont:focus {
+    color: black;
+}
+
+.cont {
+    color: black;
+}
+
+.user {
+  color: #80d8ff;
+  margin-top: 15px;
+  position: relative;
+  right: 30px;
+  z-index: 2;
+}
+
+.email_icon {
+  color: #80d8ff;
+  margin-top: 15px;
+  position: relative;
+  right: 35px;
+  z-index: 2;
+}
+
+
+.subject {
+  color: #80d8ff;
+  margin-top: 15px;
+  position: relative;
+  right: 35px;
+  z-index: 2;
+}
+
+.comment {
+  color: #80d8ff;
+  margin-top: 15px;
+  position: relative;
+  overflow: hidden;
+  right: 35px;
+  bottom: 158px;
+  z-index: 2;
 }
 
